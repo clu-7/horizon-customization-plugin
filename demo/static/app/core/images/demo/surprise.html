@@ -1,0 +1,32 @@
+<div ng-form="containerForm">
+  <div class="modal-header ui-draggable-handle">
+    <button type="button" class="close" ng-click="$dismiss()" aria-hidden="true" aria-label="Close">
+      <span aria-hidden="true" class="fa fa-times"></span>
+    </button>
+    <div class="h3 modal-title" translate>[~~~ TITLE HERE ~~~]</div>
+  </div>
+
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-sm-6">
+        <div>[~~~ CONTENT HERE ~~~]</div>
+      </div>
+
+      <div class="col-sm-6">
+        [~~~ HELP CONTENT HERE ~~~]
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+    <button class="btn btn-default" ng-click="$dismiss()">
+      <span class="fa fa-close"></span>
+      <translate>Cancel</translate>
+    </button>
+    <button class="btn btn-primary">
+      <span class="fa fa-plus"></span>
+      <translate>Create</translate>
+    </button>
+  </div>
+</div>
+
