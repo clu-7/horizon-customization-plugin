@@ -1,5 +1,3 @@
-# horizon-customization-plugin
-
 ============================
 horizon-customization-plugin
 ============================
